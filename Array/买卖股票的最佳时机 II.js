@@ -36,7 +36,6 @@ var maxProfit = function(prices) {
   while (copyPrices.length > 0) {
     if (bBuy) {
       if (copyPrices.length < 2) break;
-
       let index = copyPrices.indexOf(Math.min(...copyPrices));
       profit = profit - copyPrices[index];
       copyPrices.splice(0, index + 1);
