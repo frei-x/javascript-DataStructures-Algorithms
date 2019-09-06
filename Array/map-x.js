@@ -11,7 +11,6 @@ Array.prototype.mapX = function(callback) {
   }
 };
 var number = [2, 4, 6, 8, 10];
-
 number.mapX((item, index) => {
   if (index < 2) {
     return item + 2;
