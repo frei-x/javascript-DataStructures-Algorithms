@@ -47,7 +47,7 @@ var maxProfit = function(prices) {
       bBuy = true;
     }
     console.log(profit);
-    // console.log(copyPrices, bBuy);
+    console.log(copyPrices, bBuy);
   }
   return profit < 0 ? 0 : profit;
 };
